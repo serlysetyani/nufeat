@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'podiumsharp';
+  src: url('/fonts/podiumsharp-7.7-webfont.woff2') format('woff2'),
+       url('/fonts/podiumsharp-7.7-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'podiumsharpbold';
+  src: url('/fonts/podiumsharp-7.12-webfont.woff2') format('woff2'),
+  url('/fonts/podiumsharp-7.12-webfont.woff') format('woff');
+}
+
+#navbar{
+  font-size: 16px;
+}
+
+#title{
+  font-family:'podiumsharpbold';
+  font-size:36px;
+}
+#desc{
+  font-family: 'podiumsharp';
+  font-size: 14px;
+}
+
+nav a.active{
+  color: #000000;
+  border-bottom: 3px solid black;
+}
+
+nav a:hover{
+  color: #000000;
+}
+
+.about-img {
+  width: 750px;
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  #text-container {
+    display: unset;
+    flex: unset;
+  }
+  .about-img {
+    width: unset;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    margin-bottom: 10%;
+  }
+  #content {
+    margin: unset;
+  }
+  #title{
+    font-size: 18px;
+  }
+  #desc{
+    font-size:12px;
+  }
+  nav a.active{
+    border-bottom: 0px;
+    font-weight:700;
+  }
+  .logo{
+    width: 28px;
+    height: 28px;
+  }
+}

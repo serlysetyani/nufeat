@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'podiumsharp';
+  src: url('/fonts/podiumsharp-7.7-webfont.woff2') format('woff2'),
+       url('/fonts/podiumsharp-7.7-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'podiumsharpbold';
+  src: url('/fonts/podiumsharp-7.12-webfont.woff2') format('woff2'),
+  url('/fonts/podiumsharp-7.12-webfont.woff') format('woff');
+}
+
+#navbar{
+  font-size: 16px;
+}
+
+#shop-btn {
+  width: 248px;
+  height: 61px;
+  border: 2px black solid;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-family:'podiumsharpbold';
+}
+
+#shop-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#title{
+  font-family:'podiumsharpbold';
+}
+
+#desc{
+  font-family:'podiumsharp';
+}
+nav a.active{
+  color: #000000;
+  border-bottom: 3px solid black;
+}
+
+nav a:hover{
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  #content {
+    margin: 20px;
+  }
+  #title{
+    font-size:18px;
+    line-height: 24px;
+  }
+  #desc{
+    font-size:12px;
+  }
+  nav a.active{
+    border-bottom: 0px solid black;
+    font-weight: 700;
+  }
+  .logo{
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media only screen and (min-width:768px){
+  #desc{
+    width:503px;
+    margin: auto;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  #desc{
+    width:503px;
+    margin: auto;
+    margin-top: 24px;
+  }
+  nav a.active{
+    border-bottom: 3px solid black;
+    font-weight: 700;
+  }
+
+}

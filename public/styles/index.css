@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  .hero img {
+    background-image: url("./assets/img/hero-crop.png");
+    height: 482px;
+    object-fit: cover;
+    object-position: 80%;
+  }
+  .logo{
+    width: 28px;
+    height: 28px;
+  }
+}
+
+#navbar{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+nav a.active{
+  color: #000000;
+}
+
+nav a:hover{
+  color: #000000;
+}

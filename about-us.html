@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles.css" rel="stylesheet">
-    <link href="/styles/about-us.css" rel="stylesheet">
+    <link href="./public/styles.css" rel="stylesheet">
+    <link href="./public/styles/about-us.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <div x-data="{ open: false }"
             class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div class="p-4 flex flex-row items-center justify-between">
-                <a href="index.html"><img src="/img/nufeat-logo.svg" class="logo"></a>
+                <a href="index.html"><img src="./public/img/nufeat-logo.svg" class="logo"></a>
                 <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
                     <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                         <path x-show="!open" fill-rule="evenodd" fill="#292D32"
@@ -38,7 +38,7 @@
 
     <!-- Content -->
     <section class="bg-white">
-        <img class="about-img" src="/img/about-group.png">
+        <img class="about-img" src="./public/img/about-group.png">
         <div class="flex flex-wrap h-screen" id="text-container">
             <div class=" ">
                 <div class="mx-20">
